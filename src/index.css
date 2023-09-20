@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+    font-family: 'Share Tech', sans-serif;
+}
+
+.glow {
+    transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 0 25px rgb(142, 205, 221);
+}
+
+.img_glow {
+    box-shadow: 0 0 55px rgb(142, 205, 221) ;
+}
+
+.neno-button {
+    transition: all 0.3s ease-in-out;
+}
+
+.neno-button:hover {
+    box-shadow: 0 0 15px rgb(142, 205, 221);
+    scale: 97%;
+}
+.b_glow {
+    box-shadow: 0 0 15px rgb(142, 205, 221);
+}
+
+.b_glow_P {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 15px rgb(142, 205, 221);
+}
+.b_glow_P:hover {
+    
+    /* scale: 120%; */
+    box-shadow: 0 0 50px rgb(142, 205, 221);
+}
+.typeWriterText {
+    font-size: large;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    width: 380px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    
+    border-radius:  1.5rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card.hovered .overlay {
+    
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
+/* -----------animation----------- */
+  .image {
+    display: block;
+    margin: 0 auto;
+  }
+  .image[wobble='1'] {
+    animation: wobble 1s 1;
+  }
+  
+  @keyframes wobble {
+    25% {
+      transform: rotate(30deg);
+    }
+    50% {
+      transform: rotate(-20deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+/* -----------TEXT ANIMATION----------- */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #FFFFFF 0%,
+    #E5CFF7 29%,
+    #3085C3 67%,
+    #25ffc9 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  /* display: inline-block; */
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
