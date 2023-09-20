@@ -65,29 +65,29 @@ const Nav = () => {
         </div>
         <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">
-            <ul className="flex animate-charcter gap-8 mr-16 text-[20px]">
+            <ul className="flex gap-8 mr-16  text-[20px]">
               <Link spy={true} smooth={true} to="Home">
-                <li className="hover:text-[#25ffc9] transition  hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   HOME
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="About">
-                <li className="hover:text-[#25ffc9] transition  hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   About
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Services">
-                <li className="hover:text-[#25ffc9] transition  hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Services
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
-                <li className="hover:text-[#25ffc9] transition  hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Projects
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
-                <li className="hover:text-[#25ffc9] transition  hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Contact
                 </li>
               </Link>

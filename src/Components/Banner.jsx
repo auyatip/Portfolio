@@ -25,7 +25,7 @@ const Banner = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white ">
         <h1
           data-aos="fade-right"
-          className="text-[52px] font-semibold mb-8 leading-normal uppercase"
+          className="text-[52px] font-semibold mb-8 leading-normal  uppercase m-auto"
         >
           <Typewriter
             textStyle={{
