@@ -18,7 +18,7 @@ const Banner = () => {
     });
   }, []);
 
-  const [wobble, setWobble] = useState(0)
+  const [wobble, setWobble] = useState(0);
 
   return (
     <div className="lg:px-30  xl:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
@@ -34,17 +34,18 @@ const Banner = () => {
               fontWeight: 500,
               fontSize: "1.5em",
             }}
-            options={{
-              strings: ["Welcome To My Profile.", "I'm Software Devoloper."],
-              autoStart: true,
-              delay: 100,
-              loop: true,
-              pauseFor: 3000,
+            onInit={(typewriter) => {
+              typewriter
+                .typeString('Welcome To My Profile')
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Athip Thumakul")
+                .start();
             }}
           />
         </h1>
         <p data-aos="fade-left" className="text-lg lg:text-2xl">
-          <span className="text-orange-200 ">Hello Visitor, I'm Miller. </span>
+          <span className="text-orange-200 ">Hello Visitor, I'm Software Devoloper. </span>
           I'm passionate about working with Software developer and Technology,
           whether it's taking on exciting new projects, brainstorming innovative
           ideas.
