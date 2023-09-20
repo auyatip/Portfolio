@@ -128,7 +128,7 @@ const Projects = () => {
         >
           <div
             data-aos="fade-up"
-            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] min-h-[250px] shadow-lg shadow-[#25ffc9] "
+            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
           >
             <img
               src={project3}
@@ -173,7 +173,7 @@ const Projects = () => {
         >
           <div
             data-aos="fade-up"
-            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] min-h-[250px] shadow-lg shadow-[#25ffc9]"
+            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9]"
           >
             <img
               src={project2}
@@ -219,7 +219,7 @@ const Projects = () => {
         >
           <div
             data-aos="fade-up"
-            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] min-h-[250px] shadow-lg shadow-[#25ffc9] "
+            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
           >
             <img
               src={project4}
