@@ -442,7 +442,7 @@ const Projects = () => {
 
       :
       ''}
-    ///////////////ปุ่มโชว์เพิ่มเติม
+    {/* ///////////////ปุ่มโชว์เพิ่มเติม */}
       <button
                 onClick={() => setShowMore(!showMore)}
                 className="neno-button shadow-xl text-white border-2 my-10 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden"
