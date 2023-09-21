@@ -32,14 +32,14 @@ const Nav = () => {
               About
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Services">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
-              Service
-            </li>
-          </Link>
           <Link spy={true} smooth={true} to="Projects">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
               Projects
+            </li>
+          </Link>
+          <Link spy={true} smooth={true} to="Services">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
+              Service
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Contact">
@@ -76,14 +76,14 @@ const Nav = () => {
                   About
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Services">
-                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
-                  Services
-                </li>
-              </Link>
               <Link spy={true} smooth={true} to="Projects">
                 <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Projects
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} to="Services">
+                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                  Services
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">

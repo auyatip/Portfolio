@@ -5,7 +5,7 @@ import { BiLogoGoogle } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 mb-5 h-full w-full text-white">
+    <footer className="bg-slate-900 mb-5 h-100 w-full text-white">
       <div className=" bottom-0 left-0 w-full h-full overflow-hidden">
         <div className="custom-shape-divider-top-1687544491">
           <svg

@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 #root {
+
     font-family: 'Share Tech', sans-serif;
 }
 
@@ -44,7 +46,7 @@
 .card {
     width: 100%;
     height: 100%;
-    width: 370px;
+    width: 360px;
     min-height: 250px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;

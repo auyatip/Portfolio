@@ -72,13 +72,13 @@ const Banner = () => {
                 <AiFillGithub size={30} />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/athip-thumakul/"
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
               >
                 <FaLinkedin size={30} />
               </a>
               <a
-                href=""
+                href="atipthummakul@gmail.com"
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
               >
                 <BiLogoGoogle size={30} />

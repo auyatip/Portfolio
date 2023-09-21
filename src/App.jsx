@@ -28,6 +28,7 @@ function App() {
       behavior:'smooth'
     })
   }
+  
   return (
     <div className="bg-[url('./assets/bg-content.jpg')] relative">
       <div className="bg-[url('./assets/bg-desktop.jpg')]">
