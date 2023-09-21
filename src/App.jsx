@@ -37,8 +37,8 @@ function App() {
       <IndexScroll/>
       <div className="bg-[url('./assets/bg-content.jpg')] bg-cover">
       <About/>
-      <Service/>
       <Projects/>
+      <Service/>
       </div>
       <Footer/>
       
