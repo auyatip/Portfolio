@@ -4,10 +4,12 @@ import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
 import project5 from "../assets/project5.jpg";
+import project6 from "../assets/project6.jpg";
 import { FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 const Projects = () => {
   const [hovering, setHovering] = useState(false);
+  const [showMore,setShowMore] = useState(false)
 
   const handleMouseEnter = () => {
     setHovering(true);
@@ -209,6 +211,51 @@ const Projects = () => {
         
         {/* ////////////////////////////////// */}
 
+          {/* Project */}
+        <div
+          className={`card ${
+            hovering ? "hovered" : ""
+          } rounded-3xl glow hover:scale-110`}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <div
+            data-aos="fade-up"
+            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+          >
+            <img
+              src={project6}
+              alt="Project"
+              className="w-full h-full rounded-3xl object-top p-0"
+            />
+            {hovering && (
+              <div className="overlay absolute flex flex-col">
+                <a
+                  href="https://github.com/auyatip/ReactCRUD"
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                >
+                  <FaGithub size={30} />
+                </a>
+                <a
+                  href="https://react-crud-roan.vercel.app/"
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                >
+                  <BiLinkExternal size={30} />
+                </a>
+                <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                  distinctio laboriosam rerum doloribus fugiat pariatur, ex quae
+                  veniam sequi
+                </div>
+                <p className="text-right pr-4 text-orange-300">
+                  REACT.JS + TAILWIND + CryptoAPI
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+        {/* ////////////////////////////////// */}
+
         {/* Project */}
         <div
           className={`card ${
@@ -254,6 +301,155 @@ const Projects = () => {
         </div>
         {/* ////////////////////////////////// */}
       </div>
+      
+      {showMore ? 
+     ///containner
+     <div className="grid lg:grid-cols-2 xl:grid-cols-3 justify-around gap-20 mt-20">
+      
+    {/* Project 7 */}
+    <div
+      className={`card ${
+        hovering ? "hovered" : ""
+      } rounded-3xl glow hover:scale-110`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div
+        data-aos="fade-up"
+        className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+      >
+        <img
+          src={project4}
+          alt="Project"
+          className="w-full h-full rounded-3xl object-fill p-0"
+        />
+        {hovering && (
+          <div className="overlay absolute flex flex-col">
+            <a
+              href="https://github.com/auyatip/ReactCRUD"
+              className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+            >
+              <FaGithub size={30} />
+            </a>
+            <a
+              href="https://react-crud-roan.vercel.app/"
+              className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+            >
+              <BiLinkExternal size={30} />
+            </a>
+            <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+              distinctio laboriosam rerum doloribus fugiat pariatur, ex quae
+              veniam sequi
+            </div>
+            <p className="text-right pr-4 text-orange-300">
+              REACT.JS + TAILWIND + RESTful API
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+
+    {/* Project 8 */}
+    <div
+      className={`card ${
+        hovering ? "hovered" : ""
+      } rounded-3xl glow hover:scale-110`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div
+        data-aos="fade-up"
+        className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+      >
+        <img
+          src={project4}
+          alt="Project"
+          className="w-full h-full rounded-3xl object-fill p-0"
+        />
+        {hovering && (
+          <div className="overlay absolute flex flex-col">
+            <a
+              href="https://github.com/auyatip/ReactCRUD"
+              className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+            >
+              <FaGithub size={30} />
+            </a>
+            <a
+              href="https://react-crud-roan.vercel.app/"
+              className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+            >
+              <BiLinkExternal size={30} />
+            </a>
+            <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+              distinctio laboriosam rerum doloribus fugiat pariatur, ex quae
+              veniam sequi
+            </div>
+            <p className="text-right pr-4 text-orange-300">
+              REACT.JS + TAILWIND + RESTful API
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+
+    {/* Project 8 */}
+    <div
+      className={`card ${
+        hovering ? "hovered" : ""
+      } rounded-3xl glow hover:scale-110`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div
+        data-aos="fade-up"
+        className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+      >
+        <img
+          src={project4}
+          alt="Project"
+          className="w-full h-full rounded-3xl object-fill p-0"
+        />
+        {hovering && (
+          <div className="overlay absolute flex flex-col">
+            <a
+              href="https://github.com/auyatip/ReactCRUD"
+              className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+            >
+              <FaGithub size={30} />
+            </a>
+            <a
+              href="https://react-crud-roan.vercel.app/"
+              className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+            >
+              <BiLinkExternal size={30} />
+            </a>
+            <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+              distinctio laboriosam rerum doloribus fugiat pariatur, ex quae
+              veniam sequi
+            </div>
+            <p className="text-right pr-4 text-orange-300">
+              REACT.JS + TAILWIND + RESTful API
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+    
+    </div>
+
+      :
+      ''}
+    ///////////////ปุ่มโชว์เพิ่มเติม
+      <button
+                onClick={() => setShowMore(!showMore)}
+                className="neno-button shadow-xl text-white border-2 my-10 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden"
+              >
+                
+                show More
+      </button>
     </div>
   );
 };

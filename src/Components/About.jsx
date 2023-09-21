@@ -56,7 +56,7 @@ const About = () => {
                 onClick={() => setShowCV(!showCV)}
                 className="neno-button shadow-xl text-white border-2 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden"
               >
-                {" "}
+                
                 show Resume
               </button>
             </div>
