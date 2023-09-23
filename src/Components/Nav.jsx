@@ -63,7 +63,7 @@ const Nav = () => {
             </p>
           </span>
         </div>
-        <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
+        <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden fixed right-0 z-10">
           <div className="flex-10">
             <ul className="flex gap-8 mr-16  text-[20px]">
               <Link spy={true} smooth={true} to="Home">

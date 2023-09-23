@@ -5,6 +5,7 @@ import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
 import project5 from "../assets/project5.jpg";
 import project6 from "../assets/project6.jpg";
+import project7 from "../assets/project7.jpg";
 import { FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 const Projects = () => {
@@ -269,7 +270,7 @@ const Projects = () => {
             className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
           >
             <img
-              src={project4}
+              src={project7}
               alt="Project"
               className="w-full h-full rounded-3xl object-fill p-0"
             />
@@ -288,12 +289,10 @@ const Projects = () => {
                   <BiLinkExternal size={30} />
                 </a>
                 <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-                  distinctio laboriosam rerum doloribus fugiat pariatur, ex quae
-                  veniam sequi
+                React Hooks(useState, useContext, useReducer) & Context API
                 </div>
                 <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + TAILWIND + RESTful API
+                  REACT.JS + TAILWIND + ReactHook
                 </p>
               </div>
             )}
@@ -360,7 +359,7 @@ const Projects = () => {
     >
       <div
         data-aos="fade-up"
-        className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+        className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl shadow-lg shadow-[#25ffc9] "
       >
         <img
           src={project4}
