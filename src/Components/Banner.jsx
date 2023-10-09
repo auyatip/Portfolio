@@ -36,7 +36,7 @@ const Banner = () => {
             }}
             onInit={(typewriter) => {
               typewriter
-                .typeString('Welcome To My Profile')
+                .typeString("Welcome To My Profile")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("Athip Thumakul")
@@ -45,7 +45,9 @@ const Banner = () => {
           />
         </h1>
         <p data-aos="fade-left" className="text-lg lg:text-2xl">
-          <span className="text-orange-200 ">Hello Visitor, I'm Software Devoloper. </span>
+          <span className="text-orange-200 ">
+            Hello Visitor, I'm Software Devoloper.{" "}
+          </span>
           I'm passionate about working with Software developer and Technology,
           whether it's taking on exciting new projects, brainstorming innovative
           ideas.
@@ -66,7 +68,7 @@ const Banner = () => {
           <div className="flex item-center justify-center">
             <div className="flex space-x-3 ">
               <a
-                href=""
+                href="https://github.com/auyatip?tab=repositories"
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
               >
                 <AiFillGithub size={30} />
@@ -77,12 +79,12 @@ const Banner = () => {
               >
                 <FaLinkedin size={30} />
               </a>
-              <a
-                href="atipthummakul@gmail.com"
+              <Link
+                to="Contact"
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
               >
                 <BiLogoGoogle size={30} />
-              </a>
+              </Link>
               <a
                 href=""
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
