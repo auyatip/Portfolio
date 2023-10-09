@@ -231,13 +231,13 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute flex flex-col">
                 <a
-                  href="https://github.com/auyatip/ReactCRUD"
+                  href="https://github.com/auyatip/Crypto-Search"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
-                  href="https://react-crud-roan.vercel.app/"
+                  href="https://crypto-search-athip.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <BiLinkExternal size={30} />
