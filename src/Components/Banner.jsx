@@ -79,12 +79,12 @@ const Banner = () => {
               >
                 <FaLinkedin size={30} />
               </a>
-              <Link
-                to="Contact"
+              <a
+                href="mailto:atipthummakul@gmail.com"
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
               >
                 <BiLogoGoogle size={30} />
-              </Link>
+              </a>
               <a
                 href=""
                 className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
