@@ -46,7 +46,7 @@ const Banner = () => {
         </h1>
         <p data-aos="fade-left" className="text-lg lg:text-2xl">
           <span className="text-orange-200 ">
-            Hello Visitor, I'm Software Devoloper.{" "}
+            Hello Visitor, I'm Software Developer.{" "}
           </span>
           I'm passionate about working with Software developer and Technology,
           whether it's taking on exciting new projects, brainstorming innovative
