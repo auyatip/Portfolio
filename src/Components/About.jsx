@@ -9,7 +9,7 @@ const About = () => {
     >
       {showCV ? (
         <a
-          href="https://drive.google.com/file/d/18MYShromh5zi6IkOoMHWaGWunm-LYwsO/view"
+          href="https://drive.google.com/file/d/1s6-8aW339Gc_Ye56GDrsQ_FRdaSwB2jL/view?usp=sharing"
           className="hover:scale-110 duration-500"
         >
           <img
@@ -56,7 +56,6 @@ const About = () => {
                 onClick={() => setShowCV(!showCV)}
                 className="neno-button shadow-xl text-white border-2 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden"
               >
-                
                 show Resume
               </button>
             </div>
