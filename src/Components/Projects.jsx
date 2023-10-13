@@ -381,7 +381,7 @@ const Projects = () => {
                   </a>
                   <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
                     Developing Web Application Responsive a demo food ordering
-                    application. There are admin user can create product.
+                    application. There are Admin can create product.
                   </div>
                   <p className="text-right pr-4 text-orange-300">
                     ReactJs + NodeJs + Express + MongoDB
