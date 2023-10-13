@@ -31,24 +31,20 @@ const About = () => {
         </h1>
         <div className="text-lg lg:text-2xl">
           <p data-aos="fade-left">
-            "I completed Generation's Junior Software Developer Bootcamp and I
-            need a role as a Software Developer. During the bootcamp, I gained
-            experience as a Junior Software Developer and began developing in
-            MERN Stack development. I also learned about career swicher behavior
-            and mindset adapting to real work situations. I’m really passionate
-            for create somthing new So I'm excited to apply my skills to
-            contribute to technology-focused businesses and make use of the new
-            technical abilities I've acquired <br />
+            I completed Genneration Thailand 's Junior Software Developer
+            Bootcamp and i want to a role as a Software Developer. During the
+            bootcamp, I gained experience as a Junior Software Developer and
+            became devoloping in MERN-Stack development. <br />
             <br />
             <p>
               {" "}
-              and so I have to learned about (BSM) behavior and mindset adapting
-              to in real work situations.
+              and so I have to learned about behavior and mindset adapting to in
+              real work situations.
             </p>
             <span>
-              I'm excited to apply my skills to contribute to technology-focused
-              businesses and make use of the new technical abilities I've
-              acquired."
+              I’m really passionate for create somthing new. I'm excited to
+              apply my skills to contribute to technology-focused businesses and
+              make use of the new technical abilities I've acquired.
             </span>
           </p>
         </div>
