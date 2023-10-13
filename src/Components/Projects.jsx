@@ -7,6 +7,7 @@ import project5 from "../assets/project5.jpg";
 import project6 from "../assets/project6.jpg";
 import project7 from "../assets/project7.jpg";
 import project8 from "../assets/project8.jpg";
+import project9 from "../assets/project9.jpg";
 import { FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 const Projects = () => {
@@ -339,6 +340,48 @@ const Projects = () => {
                     This was the first time to created a full-stack blog app
                     project, which includes user authentication, blog post
                     creation and more. (hashPassword, mongoose )
+                  </div>
+                  <p className="text-right pr-4 text-orange-300">
+                    ReactJs + NodeJs + Express + MongoDB
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+          {/* Project 7 */}
+          <div
+            className={`card ${
+              hovering ? "hovered" : ""
+            } rounded-3xl glow hover:scale-110`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <div
+              data-aos="fade-up"
+              className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+            >
+              <img
+                src={project9}
+                alt="Project"
+                className="w-full h-full rounded-3xl object-fill p-0"
+              />
+              {hovering && (
+                <div className="overlay absolute flex flex-col">
+                  <a
+                    href="https://github.com/auyatip/Frontend-Web-Ordering"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <FaGithub size={30} />
+                  </a>
+                  <a
+                    href="https://frontend-web-ordering.vercel.app/"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <BiLinkExternal size={30} />
+                  </a>
+                  <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+                    Developing Web Application Responsive a demo food ordering
+                    application. There are admin user can create product.
                   </div>
                   <p className="text-right pr-4 text-orange-300">
                     ReactJs + NodeJs + Express + MongoDB
