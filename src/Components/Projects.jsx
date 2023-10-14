@@ -423,12 +423,11 @@ const Projects = () => {
                     <BiLinkExternal size={30} />
                   </a>
                   <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-                    distinctio laboriosam rerum doloribus fugiat pariatur, ex
-                    quae veniam sequi
+                    Developing a Full Stack MERN Admin systems application with
+                    CREATE,READ,UPDATE and DELETE User Members.
                   </div>
                   <p className="text-right pr-4 text-orange-300">
-                    REACT.JS + TAILWIND + RESTful API
+                    REACT + NodeJs + Express + MongoDB
                   </p>
                 </div>
               )}
