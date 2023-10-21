@@ -54,7 +54,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 xl:px-20 py-4 broder-b border-slate-800 ">
+      <div className="h-10vh flex justify-between z-50  text-white fixed w-full  lg:py-2 lg:bg-slate-800 px-20 xl:px-20 py-4 broder-b border-slate-800 ">
         <div className="flex items-center align-center flex-1 sm:px-10 lg:py-5">
           <span className="text-sm text-[#25ffc9] fixed z-10">
             {" "}
@@ -63,31 +63,31 @@ const Nav = () => {
             </p>
           </span>
         </div>
-        <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden fixed right-0 z-10">
+        <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden  right-0 z-10">
           <div className="flex-10">
             <ul className="flex gap-8 mr-16  text-[20px]">
               <Link spy={true} smooth={true} to="Home">
-                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   HOME
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="About">
-                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   About
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
-                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Projects
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Services">
-                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Services
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
-                <li className="hover:text-[#25ffc9] transition animate-charcter hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Contact
                 </li>
               </Link>

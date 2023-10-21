@@ -1,7 +1,7 @@
 import Contact from "./Contact";
-import { AiOutlineSlack } from "react-icons/ai";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BiLogoGoogle } from "react-icons/bi";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -25,13 +25,16 @@ const Footer = () => {
             <Contact />
           </div>
 
-          <div data-aos="fade-up" className="flex p-10 pt-10 lg:pl-20 xl:pl-40 border-gray-500 border-t">
+          <div
+            data-aos="fade-up"
+            className="flex p-10 pt-10 lg:pl-20 xl:pl-40 border-gray-500 border-t"
+          >
             <div className="hidden sm:inline flex-1 pl-1">
               <span className="font-semibold text-[#8DDFCB] underline">
                 MR. ATHIP
               </span>
               <p>
-                I'm staying in Thailand. <br />
+                I'm live in Thailand. <br />
                 I'm excited to meet you and work with you.💙
               </p>
             </div>
@@ -42,8 +45,6 @@ const Footer = () => {
               <ul>
                 <li>Web Design</li>
                 <li>Web Development</li>
-                <li>Git Control</li>
-                <li>Database</li>
               </ul>
             </div>
             <div className="flex-1 pl-4">
@@ -59,17 +60,26 @@ const Footer = () => {
                 Link to me
               </h2>
               <div className="flex gap-3 mt-1">
-                <a href="">
+                <a
+                  href="https://github.com/auyatip?tab=repositories"
+                  target="_blank"
+                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
+                >
                   <FaGithub size={20} />
                 </a>
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/athip-thumakul/"
+                  target="_blank"
+                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
+                >
                   <FaLinkedin size={20} />
                 </a>
-                <a href="">
-                  <BiLogoGoogle size={20} />
-                </a>
-                <a href="">
-                  <AiOutlineSlack size={20} />
+                <a
+                  href="mailto:atipthummakul@gmail.com"
+                  target="_blank"
+                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
+                >
+                  <AiOutlineMail size={20} />
                 </a>
               </div>
             </div>

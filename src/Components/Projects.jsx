@@ -56,12 +56,14 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute flex flex-col ">
                 <a
+                  target="_blank"
                   href="https://github.com/auyatip/03_Athip_colmar_academy"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://03-athip-colmar-academy.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
@@ -98,12 +100,14 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute flex flex-col">
                 <a
+                  target="_blank"
                   href="https://github.com/auyatip/gamePureJS"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://replit.com/@AUIEATIP/03Athip-find-your-hat"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
@@ -141,12 +145,14 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute  flex flex-col">
                 <a
+                  target="_blank"
                   href="https://github.com/auyatip/TodoList"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://todo-list-git-main-auyatip.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
@@ -158,7 +164,7 @@ const Projects = () => {
                   use React much more effectively."
                 </div>
                 <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + Tailwind + reactHook
+                  REACT.JS + Tailwind
                 </p>
               </div>
             )}
@@ -186,12 +192,14 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute flex flex-col">
                 <a
+                  target="_blank"
                   href="https://github.com/auyatip/ResponShoping"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://respon-shoping.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
@@ -203,7 +211,7 @@ const Projects = () => {
                   JSON API to fetch data for display."
                 </div>
                 <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + TAILWIND + JSON API
+                  REACT.JS + Tailwind + JSON API
                 </p>
               </div>
             )}
@@ -232,12 +240,14 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute flex flex-col">
                 <a
+                  target="_blank"
                   href="https://github.com/auyatip/Crypto-Search"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://crypto-search-athip.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
@@ -248,7 +258,7 @@ const Projects = () => {
                   search button to search by name, using a third-party API
                 </div>
                 <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + Axios + CryptoAPI
+                  REACT.JS + CryptoAPI
                 </p>
               </div>
             )}
@@ -276,12 +286,14 @@ const Projects = () => {
             {hovering && (
               <div className="overlay absolute flex flex-col">
                 <a
+                  target="_blank"
                   href="https://github.com/auyatip/income-expenseTracker"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://income-expense-tracker-nu.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
@@ -293,7 +305,7 @@ const Projects = () => {
                   better than before
                 </div>
                 <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + ReactHook + ContextAPI
+                  REACT.JS + ContextAPI
                 </p>
               </div>
             )}
@@ -325,12 +337,14 @@ const Projects = () => {
               {hovering && (
                 <div className="overlay absolute flex flex-col">
                   <a
+                    target="_blank"
                     href="https://github.com/auyatip/frontend-Web-Blog/tree/main"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
+                    target="_blank"
                     href="https://frontend-web-blog.vercel.app/"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
@@ -342,7 +356,7 @@ const Projects = () => {
                     creation and more. (hashPassword, mongoose )
                   </div>
                   <p className="text-right pr-4 text-orange-300">
-                    ReactJs + NodeJs + Express + MongoDB
+                    REACT.JS + NODE.JS + Express + MongoDB
                   </p>
                 </div>
               )}
@@ -368,12 +382,14 @@ const Projects = () => {
               {hovering && (
                 <div className="overlay absolute flex flex-col">
                   <a
+                    target="_blank"
                     href="https://github.com/auyatip/Frontend-Web-Ordering"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
+                    target="_blank"
                     href="https://frontend-web-ordering.vercel.app/"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
@@ -384,7 +400,7 @@ const Projects = () => {
                     application. There are Admin can create product.
                   </div>
                   <p className="text-right pr-4 text-orange-300">
-                    ReactJs + NodeJs + Express + MongoDB
+                    REACT.JS + NODE.JS + Express + MongoDB
                   </p>
                 </div>
               )}
@@ -411,12 +427,14 @@ const Projects = () => {
               {hovering && (
                 <div className="overlay absolute flex flex-col">
                   <a
+                    target="_blank"
                     href="https://github.com/auyatip/ReactCRUD"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
+                    target="_blank"
                     href="https://react-crud-roan.vercel.app/"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
@@ -427,7 +445,7 @@ const Projects = () => {
                     CREATE,READ,UPDATE and DELETE User Members.
                   </div>
                   <p className="text-right pr-4 text-orange-300">
-                    REACT + NodeJs + Express + MongoDB
+                    REACT + NODE.JS + Express + MongoDB
                   </p>
                 </div>
               )}

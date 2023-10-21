@@ -1,7 +1,8 @@
 import { useState } from "react";
 import cv from "../assets/cv.jpg";
+import { Link } from "react-router-dom";
 const About = () => {
-  const [showCV, setShowCV] = useState(false);
+  const [showCV, setShowCV] = useState(true);
   return (
     <div
       id="About"
@@ -52,12 +53,14 @@ const About = () => {
         <div className="flex mt-8 gap-2">
           <div className="flex item-center justify-center">
             <div className="flex space-x-3">
-              <button
-                onClick={() => setShowCV(!showCV)}
-                className="neno-button shadow-xl text-white border-2 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden"
+              <a
+                href="https://drive.google.com/file/d/15SGmHcJrDKAHJe_pt5W8a9KkZVjbytGj/view"
+                target="_blank"
               >
-                show Resume
-              </button>
+                <button className="neno-button shadow-xl text-white border-2 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden">
+                  Download Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>
