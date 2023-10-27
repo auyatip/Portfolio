@@ -70,8 +70,9 @@ const Projects = () => {
                   <BiLinkExternal size={30} />
                 </a>
                 <div className="abolute text-center mt-10  text-md text-gray-300 pb-1 px-2">
-                  My final project Fullstack reesponsive exercise tracking web
-                  application on bootcamps Generation Thailand. more features..
+                  My final project fullstack exercise tracking responsive web
+                  application on bootcamps Generation Thailand.and more
+                  features..
                 </div>
                 <p className="text-right pr-4 text-orange-300">
                   REACT.JS + NODE.JS + Express + MongoDB
