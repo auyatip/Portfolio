@@ -57,14 +57,14 @@ const Projects = () => {
               <div className="overlay absolute flex flex-col ">
                 <a
                   target="_blank"
-                  href="https://fitbod-fityourgoal.vercel.app/"
+                  href="https://github.com/JSD5-5-Group-10/Front-End"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/JSD5-5-Group-10/Front-End"
+                  href="https://fitbod-fityourgoal.vercel.app/"
                   className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                 >
                   <BiLinkExternal size={30} />
