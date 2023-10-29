@@ -78,6 +78,11 @@
     opacity: 1;
     transition: all 0.3s ease-in-out;
   }
+  .finalcard.hovered .overlay {
+    
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
 /* -----------animation----------- */
   .image {
     display: block;

@@ -69,10 +69,11 @@ const Projects = () => {
                 >
                   <BiLinkExternal size={30} />
                 </a>
-                <div className="abolute text-center mt-10  text-md text-gray-300 pb-1 px-2">
-                  My final project fullstack exercise tracking responsive web
-                  application on bootcamps Generation Thailand.and more
-                  features..
+                <div className="abolute text-center mt-10  text-md text-gray-300 pb-1 px-2 ">
+                  My full-stack website is perfect for tracking exercises and
+                  reaching fitness goals. It's designed for Generation Thailand
+                  bootcampers and comes with innovative features for an easy and
+                  assertive experience.
                 </div>
                 <p className="text-right pr-4 text-orange-300">
                   REACT.JS + NODE.JS + Express + MongoDB
@@ -221,153 +222,13 @@ const Projects = () => {
           </div>
         </div>
         {/* ////////////////////////////////// */}
-
-        {/* Project */}
-        <div
-          className={`card ${
-            hovering ? "hovered" : ""
-          } rounded-3xl glow hover:scale-110`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <div
-            data-aos="fade-up"
-            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9]"
-          >
-            <img
-              src={project2}
-              alt="Project"
-              className="w-full h-full rounded-3xl object-fill p-0 "
-            />
-            {hovering && (
-              <div className="overlay absolute flex flex-col">
-                <a
-                  target="_blank"
-                  href="https://github.com/auyatip/ResponShoping"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
-                >
-                  <FaGithub size={30} />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://respon-shoping.vercel.app/"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
-                >
-                  <BiLinkExternal size={30} />
-                </a>
-                <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
-                  Developed a Responsive Landing-page using ReactJS and
-                  Tailwind, along with CSS and JavaScript." And use Axios with
-                  JSON API to fetch data for display."
-                </div>
-                <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + Tailwind + JSON API
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* ////////////////////////////////// */}
-
-        {/* Project */}
-        <div
-          className={`card ${
-            hovering ? "hovered" : ""
-          } rounded-3xl glow hover:scale-110`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <div
-            data-aos="fade-up"
-            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
-          >
-            <img
-              src={project6}
-              alt="Project"
-              className="w-full h-full rounded-3xl object-top p-0"
-            />
-            {hovering && (
-              <div className="overlay absolute flex flex-col">
-                <a
-                  target="_blank"
-                  href="https://github.com/auyatip/Crypto-Search"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
-                >
-                  <FaGithub size={30} />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://crypto-search-athip.vercel.app/"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
-                >
-                  <BiLinkExternal size={30} />
-                </a>
-                <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
-                  Built an application to check cryptocurrency prices, with a
-                  search button to search by name, using a third-party API
-                </div>
-                <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + CryptoAPI
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
-        {/* ////////////////////////////////// */}
-
-        {/* Project */}
-        <div
-          className={`card ${
-            hovering ? "hovered" : ""
-          } rounded-3xl glow hover:scale-110`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <div
-            data-aos="fade-up"
-            className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
-          >
-            <img
-              src={project7}
-              alt="Project"
-              className="w-full h-full rounded-3xl object-fill p-0"
-            />
-            {hovering && (
-              <div className="overlay absolute flex flex-col">
-                <a
-                  target="_blank"
-                  href="https://github.com/auyatip/income-expenseTracker"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
-                >
-                  <FaGithub size={30} />
-                </a>
-                <a
-                  target="_blank"
-                  href="https://income-expense-tracker-nu.vercel.app/"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
-                >
-                  <BiLinkExternal size={30} />
-                </a>
-                <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
-                  Developed a income-expense Tracker application using
-                  ReactJs.This tutorial helped me understand and use ReactJS
-                  better than before
-                </div>
-                <p className="text-right pr-4 text-orange-300">
-                  REACT.JS + ContextAPI
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
-        {/* ////////////////////////////////// */}
       </div>
 
       {showMore ? (
         ///containner
+
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 justify-around gap-20 mt-20">
-          {/* Project 7 */}
+          {/* Project */}
           <div
             className={`card ${
               hovering ? "hovered" : ""
@@ -377,41 +238,44 @@ const Projects = () => {
           >
             <div
               data-aos="fade-up"
-              className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+              className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9]"
             >
               <img
-                src={project8}
+                src={project2}
                 alt="Project"
-                className="w-full h-full rounded-3xl object-fill p-0"
+                className="w-full h-full rounded-3xl object-fill p-0 "
               />
               {hovering && (
                 <div className="overlay absolute flex flex-col">
                   <a
                     target="_blank"
-                    href="https://github.com/auyatip/frontend-Web-Blog/tree/main"
+                    href="https://github.com/auyatip/ResponShoping"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
-                    href="https://frontend-web-blog.vercel.app/"
+                    href="https://respon-shoping.vercel.app/"
                     className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
                   >
                     <BiLinkExternal size={30} />
                   </a>
                   <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
-                    This was the first time to created a full-stack blog app
-                    project, which includes user authentication, blog post
-                    creation and more. (hashPassword, mongoose )
+                    Developed a Responsive Landing-page using ReactJS and
+                    Tailwind, along with CSS and JavaScript." And use Axios with
+                    JSON API to fetch data for display."
                   </div>
                   <p className="text-right pr-4 text-orange-300">
-                    REACT.JS + NODE.JS + Express + MongoDB
+                    REACT.JS + Tailwind + JSON API
                   </p>
                 </div>
               )}
             </div>
           </div>
+
+          {/* ////////////////////////////////// */}
+
           {/* Project 7 */}
           <div
             className={`card ${
@@ -501,6 +365,144 @@ const Projects = () => {
               )}
             </div>
           </div>
+          {/* Project 7 */}
+          <div
+            className={`card ${
+              hovering ? "hovered" : ""
+            } rounded-3xl glow hover:scale-110`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <div
+              data-aos="fade-up"
+              className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+            >
+              <img
+                src={project8}
+                alt="Project"
+                className="w-full h-full rounded-3xl object-fill p-0"
+              />
+              {hovering && (
+                <div className="overlay absolute flex flex-col">
+                  <a
+                    target="_blank"
+                    href="https://github.com/auyatip/frontend-Web-Blog/tree/main"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <FaGithub size={30} />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://frontend-web-blog.vercel.app/"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <BiLinkExternal size={30} />
+                  </a>
+                  <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+                    This was the first time to created a full-stack blog app
+                    project, which includes user authentication, blog post
+                    creation and more. (hashPassword, mongoose )
+                  </div>
+                  <p className="text-right pr-4 text-orange-300">
+                    REACT.JS + NODE.JS + Express + MongoDB
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Project */}
+          <div
+            className={`card ${
+              hovering ? "hovered" : ""
+            } rounded-3xl glow hover:scale-110`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <div
+              data-aos="fade-up"
+              className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+            >
+              <img
+                src={project6}
+                alt="Project"
+                className="w-full h-full rounded-3xl object-top p-0"
+              />
+              {hovering && (
+                <div className="overlay absolute flex flex-col">
+                  <a
+                    target="_blank"
+                    href="https://github.com/auyatip/Crypto-Search"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <FaGithub size={30} />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://crypto-search-athip.vercel.app/"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <BiLinkExternal size={30} />
+                  </a>
+                  <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+                    Built an application to check cryptocurrency prices, with a
+                    search button to search by name, using a third-party API
+                  </div>
+                  <p className="text-right pr-4 text-orange-300">
+                    REACT.JS + CryptoAPI
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+          {/* ////////////////////////////////// */}
+
+          {/* Project */}
+          <div
+            className={`card ${
+              hovering ? "hovered" : ""
+            } rounded-3xl glow hover:scale-110`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <div
+              data-aos="fade-up"
+              className=" flex items-center relative justify-center font-semibold  text-white rounded-3xl h-[250px] shadow-lg shadow-[#25ffc9] "
+            >
+              <img
+                src={project7}
+                alt="Project"
+                className="w-full h-full rounded-3xl object-fill p-0"
+              />
+              {hovering && (
+                <div className="overlay absolute flex flex-col">
+                  <a
+                    target="_blank"
+                    href="https://github.com/auyatip/income-expenseTracker"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <FaGithub size={30} />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://income-expense-tracker-nu.vercel.app/"
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  >
+                    <BiLinkExternal size={30} />
+                  </a>
+                  <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
+                    Developed a income-expense Tracker application using
+                    ReactJs.This tutorial helped me understand and use ReactJS
+                    better than before
+                  </div>
+                  <p className="text-right pr-4 text-orange-300">
+                    REACT.JS + ContextAPI
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+          {/* ////////////////////////////////// */}
         </div>
       ) : (
         ""
@@ -510,7 +512,7 @@ const Projects = () => {
         onClick={() => setShowMore(!showMore)}
         className="neno-button shadow-xl text-white border-2 my-10 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden"
       >
-        show More
+        {showMore ? "Close" : "Show More"}
       </button>
     </div>
   );
