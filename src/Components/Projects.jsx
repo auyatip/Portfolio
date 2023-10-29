@@ -401,7 +401,7 @@ const Projects = () => {
                   <div className="abolute text-center text-md text-gray-300 pb-1 px-2">
                     This was the first time to created a full-stack blog app
                     project, which includes user authentication, blog post
-                    creation and more. (hashPassword, mongoose )
+                    creation and more. (HashPassword, mongoose )
                   </div>
                   <p className="text-right pr-4 text-orange-300">
                     REACT.JS + NODE.JS + Express + MongoDB
