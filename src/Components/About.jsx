@@ -1,5 +1,6 @@
 import { useState } from "react";
 import cv from "../assets/cv.jpg";
+import File from "../assets/CV_Athip.pdf";
 import { Link } from "react-router-dom";
 const About = () => {
   const [showCV, setShowCV] = useState(true);
@@ -10,7 +11,7 @@ const About = () => {
     >
       {showCV ? (
         <a
-          href="https://drive.google.com/file/d/1s6-8aW339Gc_Ye56GDrsQ_FRdaSwB2jL/view?usp=sharing"
+          href="https://drive.google.com/file/d/15SGmHcJrDKAHJe_pt5W8a9KkZVjbytGj/view"
           className="hover:scale-110 duration-500"
         >
           <img
@@ -57,9 +58,11 @@ const About = () => {
                 href="https://drive.google.com/file/d/15SGmHcJrDKAHJe_pt5W8a9KkZVjbytGj/view"
                 target="_blank"
               >
-                <button className="neno-button shadow-xl text-white border-2 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden">
-                  Download Resume
-                </button>
+                <a href={File} download="CV" target="_blank">
+                  <button className="neno-button shadow-xl text-white border-2 hover:bg-[#284075] border-[#25ffc9] rounded-lg py-4 px-8 uppercase realative overflow-hidden">
+                    Download Resume
+                  </button>
+                </a>
               </a>
             </div>
           </div>

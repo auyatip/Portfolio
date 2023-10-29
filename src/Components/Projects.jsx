@@ -35,11 +35,11 @@ const Projects = () => {
         Projects
       </h1>
       <div className="flex mb-20 ">
-        {/* Project */}
+        {/* final Project */}
         <div
-          className={`card ${
-            hovering ? "hovered" : ""
-          } rounded-3xl glow hover:scale-110 `}
+          className={`finalcard w-[360px] md:w-[500px] ${
+            hovering ? "hovered " : ""
+          } rounded-3xl  glow hover:scale-110 `}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
