@@ -27,9 +27,9 @@ const Footer = () => {
 
           <div
             data-aos="fade-up"
-            className="flex p-10 pt-10 lg:pl-20 xl:pl-40 border-gray-500 border-t"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-6 sm:p-10 lg:px-12 xl:px-20 border-gray-500 border-t"
           >
-            <div className="hidden sm:inline flex-1 pl-1">
+            <div className="sm:inline flex-1 pl-1">
               <span className="font-semibold text-[#8DDFCB] underline">
                 MR. ATHIP
               </span>
@@ -38,13 +38,14 @@ const Footer = () => {
                 I'm excited to meet you and work with you.💙
               </p>
             </div>
-            <div className="hidden sm:inline flex-1 pl-4">
+            <div className="sm:inline flex-1 pl-4">
               <h2 className="font-semibold uppercase text-[#8DDFCB] underline">
-                Services
+                Skills
               </h2>
               <ul>
-                <li>Web Design</li>
-                <li>Web Development</li>
+                <li>Full-Stack Development</li>
+                <li>Logistics Systems</li>
+                <li>API &amp; Database Architecture</li>
               </ul>
             </div>
             <div className="flex-1 pl-4">
@@ -52,7 +53,7 @@ const Footer = () => {
                 Contact
               </h2>
               <p>Email: athipthummakul@gmail.com</p>
-              <p>Phone: +66 0 123 1234</p>
+              <p>Phone: 094-676-5524</p>
             </div>
 
             <div className="flex-1 pl-4">
@@ -63,21 +64,21 @@ const Footer = () => {
                 <a
                   href="https://github.com/auyatip?tab=repositories"
                   target="_blank"
-                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
+                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2" rel="noreferrer"
                 >
                   <FaGithub size={20} />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/athip-thumakul/"
                   target="_blank"
-                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
+                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2" rel="noreferrer"
                 >
                   <FaLinkedin size={20} />
                 </a>
                 <a
                   href="mailto:atipthummakul@gmail.com"
                   target="_blank"
-                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2"
+                  className="text-[#8DDFCB] hover:text-[#8DDFCB] rounded-full glow p-2" rel="noreferrer"
                 >
                   <AiOutlineMail size={20} />
                 </a>

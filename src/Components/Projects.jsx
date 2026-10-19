@@ -26,18 +26,18 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="pt-10 flex flex-col items-center justify-center mb-20"
+      className="w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 xl:px-20 pt-10 flex flex-col items-center justify-center mb-20"
     >
       <h1
         data-aos="fade-right"
-        className="text-[52px] animate-charcter border-b pb-7 w-full text-center font-semibold mb-20 leading-normal uppercase text-[#25ffc9] "
+        className="text-4xl sm:text-5xl animate-charcter border-b pb-7 w-full text-center font-semibold mb-12 leading-normal uppercase text-[#25ffc9] "
       >
-        Projects
+        Selected Projects
       </h1>
-      <div className="flex mb-20 ">
+      <div className="w-full flex justify-center mb-20 overflow-hidden">
         {/* final Project */}
         <div
-          className={`finalcard w-[360px] md:w-[500px] ${
+          className={`finalcard w-full max-w-[500px] ${
             hovering ? "hovered " : ""
           } rounded-3xl  glow hover:scale-110 `}
           onMouseEnter={handleMouseEnter}
@@ -58,14 +58,14 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/JSD5-5-Group-10/Front-End"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
                   target="_blank"
                   href="https://fitbod-fityourgoal.vercel.app/"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <BiLinkExternal size={30} />
                 </a>
@@ -108,14 +108,14 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/auyatip/03_Athip_colmar_academy"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
                   target="_blank"
                   href="https://03-athip-colmar-academy.vercel.app/"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <BiLinkExternal size={30} />
                 </a>
@@ -153,14 +153,14 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/auyatip/gamePureJS"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
                   target="_blank"
                   href="https://replit.com/@AUIEATIP/03Athip-find-your-hat"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <BiLinkExternal size={30} />
                 </a>
@@ -198,14 +198,14 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/auyatip/TodoList"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <FaGithub size={30} />
                 </a>
                 <a
                   target="_blank"
                   href="https://todo-list-git-main-auyatip.vercel.app/"
-                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                  className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                 >
                   <BiLinkExternal size={30} />
                 </a>
@@ -250,14 +250,14 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/auyatip/ResponShoping"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
                     href="https://respon-shoping.vercel.app/"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <BiLinkExternal size={30} />
                   </a>
@@ -298,14 +298,14 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/auyatip/Frontend-Web-Ordering"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
                     href="https://frontend-web-ordering.vercel.app/"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <BiLinkExternal size={30} />
                   </a>
@@ -343,14 +343,14 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/auyatip/ReactCRUD"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
                     href="https://react-crud-roan.vercel.app/"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <BiLinkExternal size={30} />
                   </a>
@@ -387,14 +387,14 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/auyatip/frontend-Web-Blog/tree/main"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
                     href="https://frontend-web-blog.vercel.app/"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <BiLinkExternal size={30} />
                   </a>
@@ -433,14 +433,14 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/auyatip/Crypto-Search"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
                     href="https://crypto-search-athip.vercel.app/"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <BiLinkExternal size={30} />
                   </a>
@@ -479,14 +479,14 @@ const Projects = () => {
                   <a
                     target="_blank"
                     href="https://github.com/auyatip/income-expenseTracker"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <FaGithub size={30} />
                   </a>
                   <a
                     target="_blank"
                     href="https://income-expense-tracker-nu.vercel.app/"
-                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow "
+                    className="m-5 text-[#8DDFCB] max-w-[30px] hover:text-[#8DDFCB] rounded-full glow " rel="noreferrer"
                   >
                     <BiLinkExternal size={30} />
                   </a>

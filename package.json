@@ -16,10 +16,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "react-router-dom": "^6.17.0",
     "react-scroll": "^1.8.9",
     "react-toastify": "^9.1.3",
-    "typewriter-effect": "^2.20.1",
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {

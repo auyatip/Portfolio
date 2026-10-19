@@ -20,16 +20,19 @@ const Service = () => {
 
   return (
     <div
-      id="Services"
-      className="p-20 flex flex-col items-center justify-center"
+      id="Skills"
+      className="px-5 sm:px-8 lg:px-12 xl:px-20 py-16 flex flex-col items-center justify-center"
     >
       <h1
         data-aos="fade-right"
-        className="text-[52px] animate-charcter border-b pb-2 w-full text-center font-semibold mb-20 leading-normal uppercase text-[#25ffc9] "
+        className="text-4xl sm:text-5xl animate-charcter border-b pb-2 w-full text-center font-semibold mb-12 leading-normal uppercase text-[#25ffc9] "
       >
-        Technical
+        Technical Skills
       </h1>
-      <div className="grid xl:grid-cols-5 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 items-center gap-20">
+      <p className="max-w-5xl text-center text-slate-200 text-lg mb-12">
+        TypeScript · JavaScript · SQL · Go · Node.js · NestJS · AdonisJS · Express · React · Next.js · Material UI · Tailwind CSS · MySQL · PostgreSQL · MongoDB · Redis · Docker · AWS · Git · Postman
+      </p>
+      <div className="w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 items-center justify-items-center gap-6 lg:gap-8">
         <div
           data-aos="fade-up"
           className=" flex items-center justify-center font-semibold rounded-3xl rounded-tl-none text-orange-500  h-36 w-64 border-2  border-[#25ffc9]  cursor-pointer b_glow"

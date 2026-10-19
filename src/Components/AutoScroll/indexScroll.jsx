@@ -1,15 +1,28 @@
 import Scroll from "./Scroll";
 import './styleScroll.css'
 import { v4 as uuidv4} from 'uuid';
+import project1 from "../../assets/project1.jpg";
+import project2 from "../../assets/project2.jpg";
+import project3 from "../../assets/project3.jpg";
+import project4 from "../../assets/project4.jpg";
+import project5 from "../../assets/project5.jpg";
+import project6 from "../../assets/project6.jpg";
+import project7 from "../../assets/project7.jpg";
+import project8 from "../../assets/project8.jpg";
+import project9 from "../../assets/project9.jpg";
+import finalProject from "../../assets/finalProject.jpg";
 
 const images = [
-  "https://www.globalfocusmagazine.com/wp-content/uploads/2020/02/Engaging_with_technology-scaled.jpg",
-  "https://imageio.forbes.com/specials-images/imageserve/6200b0dddcf32d3be937fa84/0x0.jpg?format=jpg&width=1200",
-  "https://businessfacilities.com/wp-content/uploads/2017/10/BF-SO17_CovStory_1200x630_opt2.jpg",
-  "https://thumbs.dreamstime.com/b/business-technology-internet-network-concept-young-businessman-shows-word-virtual-display-future-pricing-strategy-182521994.jpg",
-  "https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg",
-  "https://www.yondu.com/wp-content/uploads/2022/08/OPT-2-medium-shot-man-wearing-vr-glasses-scaled.jpg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtbFT50fetX0fpGDIl-TGaptbKNfLcyLRHftdl52MLzC-7wAaA7z_B8wa7WBwkgCj_3oI&usqp=CAU"
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+  project9,
+  finalProject,
 ].map((image) => ({
   id: uuidv4(),
   image

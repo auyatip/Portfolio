@@ -12,7 +12,7 @@ const Nav = () => {
     return function cleanup() {
       clearInterval(timer);
     };
-  });
+  }, []);
 
   const handleClick = () => {
     setClick(!click);
@@ -20,8 +20,8 @@ const Nav = () => {
 
   const content = (
     <>
-      <div className="lg:hidden block absolute top-16 w-full left-0 righ-0 z-10 bg-slate-900 transition">
-        <ul className="text-center text-xl p-20 ">
+      <div className="lg:hidden block absolute top-16 w-full left-0 right-0 z-10 bg-slate-900 transition">
+        <ul className="text-center text-xl p-6 sm:p-10 ">
           <Link spy={true} smooth={true} to="Home">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
               HOME
@@ -32,14 +32,19 @@ const Nav = () => {
               About
             </li>
           </Link>
+          <Link spy={true} smooth={true} to="Experience">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
+              Experience
+            </li>
+          </Link>
           <Link spy={true} smooth={true} to="Projects">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
               Projects
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Services">
+          <Link spy={true} smooth={true} to="Skills">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded uppercase">
-              Service
+              Skills
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Contact">
@@ -54,8 +59,8 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="h-10vh flex justify-between z-50  text-white fixed w-full  lg:py-2 lg:bg-slate-800 px-20 xl:px-20 py-4 broder-b border-slate-800 ">
-        <div className="flex items-center align-center flex-1 sm:px-10 lg:py-5">
+      <div className="h-10vh flex justify-between z-50 text-white fixed w-full lg:py-2 lg:bg-slate-800 px-4 sm:px-8 lg:px-12 xl:px-20 py-4 border-b border-slate-800">
+        <div className="flex items-center align-center flex-1 lg:py-5">
           <span className="text-sm text-[#25ffc9] fixed z-10">
             {" "}
             <p className="shadow-sm rounded-full animate-charcter px-1  shadow-[#25ffc9]">
@@ -65,7 +70,7 @@ const Nav = () => {
         </div>
         <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden  right-0 z-10">
           <div className="flex-10">
-            <ul className="flex gap-8 mr-16  text-[20px]">
+            <ul className="flex gap-4 xl:gap-8 mr-4 xl:mr-16 text-base xl:text-[20px]">
               <Link spy={true} smooth={true} to="Home">
                 <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   HOME
@@ -76,14 +81,19 @@ const Nav = () => {
                   About
                 </li>
               </Link>
+              <Link spy={true} smooth={true} to="Experience">
+                <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
+                  Experience
+                </li>
+              </Link>
               <Link spy={true} smooth={true} to="Projects">
                 <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
                   Projects
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Services">
+              <Link spy={true} smooth={true} to="Skills">
                 <li className="hover:text-[#25ffc9] hover:border-[#25ffc9] hover:scale-110 cursor-pointer uppercase">
-                  Services
+                  Skills
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
