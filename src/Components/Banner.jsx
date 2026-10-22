@@ -31,7 +31,7 @@ const Banner = () => {
         </h1>
         <p data-aos="fade-left" className="max-w-3xl text-lg lg:text-2xl">
           <span className="text-orange-200">Full-Stack Software Engineer</span>{" "}
-          building production-ready logistics and ERP systems with 2.5+ years of experience.
+          building production-ready logistics and ERP systems with 3 years of experience.
           <p className="mt-3">
             I work across backend architecture, APIs, databases, integrations, and frontend delivery. Get in touch through{" "}
             <Link
