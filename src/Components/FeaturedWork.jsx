@@ -45,7 +45,7 @@ const FeaturedWork = () => (
       Featured Work
     </h2>
     <p className="max-w-2xl mx-auto text-center text-slate-300 mb-12">
-      A selection of projects that demonstrates my experience across backend systems, APIs, databases, and modern frontend delivery.
+      A selection of projects that demonstrates my experience across CRM workflows, backend systems, APIs, databases, and modern frontend delivery.
     </p>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
       {orderedWork.map((item) => (

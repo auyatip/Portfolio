@@ -31,11 +31,11 @@ const About = () => {
         </h1>
         <div className="text-lg lg:text-2xl">
           <p data-aos="fade-left">
-            I am a backend-focused Full-Stack Software Engineer with 3 years of experience building production logistics and ERP platforms. I design reliable APIs, data models, workflows, and integrations for real business operations. <br />
+            I am a backend-focused Full-Stack Software Engineer with 3 years of experience building production CRM and business platforms. I design reliable APIs, data models, customer workflows, and integrations for real business operations. <br />
             <br />
             <p>
               {" "}
-              I have worked on order booking, warehouse operations, parcel tracking, claims, payments, commissions, and delivery workflows.
+              I have worked on customer management, communication workflows, order operations, payments, claims, commissions, and service delivery processes.
             </p>
             <span>
               I’m really passionate for create somthing new. I'm excited to

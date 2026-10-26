@@ -44,7 +44,7 @@ const Footer = () => {
               </h2>
               <ul>
                 <li>Full-Stack Development</li>
-                <li>Logistics Systems</li>
+                <li>CRM &amp; Business Systems</li>
                 <li>API &amp; Database Architecture</li>
               </ul>
             </div>
