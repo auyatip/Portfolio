@@ -1,65 +1,65 @@
-import About from "./Components/About";
-import Banner from "./Components/Banner";
-import Footer from "./Components/Footer";
-import Nav from "./Components/Nav";
-import Service from "./Components/Service";
-import FeaturedWork from "./Components/FeaturedWork";
-import Experience from "./Components/Experience";
-import IndexScroll from "../src/Components/AutoScroll/indexScroll";
-import { GoArrowUp } from "react-icons/go";
-import { useEffect, useState } from "react";
+import { useLanguage } from "./language";
+import LanguageProvider from "./LanguageProvider";
+import { MotionConfig } from "framer-motion";
+import { projects } from "./projects";
+import Header from "./ui/Header";
+import { SocialLinks } from "./ui/shared";
+import Home from "./pages/Home";
+import CaseStudy from "./pages/CaseStudy";
 
-function App() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const goTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
+/** @param {{path?: string}} props */
+function Page({
+  path = typeof window === "undefined" ? "/" : window.location.pathname,
+}) {
+  const { t, href } = useLanguage();
+  const project = projects.find(
+    (item) => path.replace(/\/$/, "") === `/projects/${item.slug}`,
+  );
+  const notFound = path !== "/" && !project;
   return (
-    <div className="bg-[url('./assets/bg-content.jpg')] relative">
-      <div className="bg-[url('./assets/bg-desktop.jpg')]">
-        <Nav />
-        <Banner />
-      </div>
-      <IndexScroll />
-      <div className="bg-[url('./assets/bg-content.jpg')] bg-cover">
-        <About />
-        <Experience />
-        <FeaturedWork />
-        <Service />
-      </div>
-      <Footer />
-
-      <div
-        className="scale-70 bottom-3 right-3 lg:bottom-10 lg:right-10 text-[#8DDFCB] text-center p-2 rounded-full hover:shadow-[#25ffc9] 
-      shadow-sm font-semibold fixed hover:text-[#25ffc9] hover:scale-110 duration-300 cursor-pointer"
-        style={{ display: isVisible ? "block" : "none" }}
-        onClick={goTop}
-      >
-        <div className="flex flex-col items-center">
-          <GoArrowUp size={40} />
-          <p className="uppercase p-2 text-xs">back to top</p>
-        </div>
-      </div>
-    </div>
+    <MotionConfig reducedMotion="user">
+      <a className="skip-link" href="#main">
+        {t("Skip to content")}
+      </a>
+      <Header />
+      <main id="main" className="container">
+        {project ? (
+          <CaseStudy project={project} />
+        ) : notFound ? (
+          <section className="case-header">
+            <h1>{t("Page not found")}</h1>
+            <a className="button primary" href={href("/")}>
+              {t("Return home")}
+            </a>
+          </section>
+        ) : (
+          <Home />
+        )}
+      </main>
+      <footer className="container footer">
+        <a href={href("/#Home")} className="logo" aria-label={t("Return home")}>
+          AT<span>.</span>
+        </a>
+        <p>
+          © {new Date().getFullYear()} Athip Thumakul. {t("Built with care.")}
+        </p>
+        <SocialLinks />
+        <a className="back-top" href="#main">
+          {t("Back to top")}
+        </a>
+      </footer>
+    </MotionConfig>
   );
 }
-
-export default App;
+export default function App({
+  path = typeof window === "undefined" ? "/" : window.location.pathname,
+}) {
+  const language = /^\/th(?:\/|$)/.test(path) ? "th" : "en";
+  const normalized =
+    language === "th" ? path.replace(/^\/th/, "") || "/" : path;
+  return (
+    <LanguageProvider language={language} path={path}>
+      <Page path={normalized} />
+    </LanguageProvider>
+  );
+}

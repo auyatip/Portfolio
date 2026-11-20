@@ -1,21 +1,28 @@
-<!doctype html>
-<html lang="en">
-  
+﻿<!doctype html>
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
-
-    <link rel="icon" type="image/jpeg" href="/src/assets/profile.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Athip Thumakul — Frontend Developer portfolio, projects, skills, and contact information." />
-    <meta name="theme-color" content="#0f172a" />
-    <meta property="og:title" content="Athip Thumakul | Full-Stack Software Engineer" />
-    <meta property="og:description" content="Full-Stack Software Engineer building CRM and business management systems with 3 years of experience." />
+    <meta
+      name="description"
+      content="Backend-focused Full-Stack Software Engineer building reliable APIs, CRM platforms, and responsive web applications. Explore projects and engineering experience."
+    />
+    <meta name="theme-color" content="#0B1120" />
+    <meta property="og:title" content="Athip Thumakul | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Explore Athip’s projects, engineering experience, and full-stack work."
+    />
     <meta property="og:type" content="website" />
-    <title>Athip Thumakul | Software Engineer </title>
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Athip Thumakul | Software Engineer</title>
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("portfolio-theme") || "dark";
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>
