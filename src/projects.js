@@ -1,6 +1,8 @@
 ﻿import house from "./assets/athip-house.jpg";
 import doctor from "./assets/doctor-scedules.jpg";
 import order from "./assets/order.jpg";
+import eduflowLogin from "./assets/project-flow-authen1.png";
+import eduflowPermissions from "./assets/project-flow-authen2.png";
 
 export const projects = [
   {
@@ -25,6 +27,30 @@ export const projects = [
     role: "Frontend implementation, mobile-first layouts, and SEO metadata for the resort landing page.",
     results:
       "Delivered a public resort website with room details, a gallery, booking calls to action, and SEO metadata. Booking conversion and traffic measurements are not available.",
+  },
+  {
+    slug: "eduflow",
+    title: "EDUFLOW",
+    category: "Education · Student management",
+    image: eduflowLogin,
+    gallery: [{ image: eduflowPermissions, caption: "Role and permission matrix" }],
+    stack: ["Next.js", "MySQL"],
+    description:
+      "An education workspace for student information, user management, and role-based access permissions.",
+    github: "",
+    demo: "https://the-demo-flow-production.up.railway.app/",
+    problem:
+      "Bring student information and team access controls together in an organized education workspace.",
+    solution:
+      "A student-management interface with demo sign-in for administrators and staff, user management, and a permission matrix organized by role and action.",
+    architecture: [
+      "Administrator and staff sign-in",
+      "Student and user management workspace",
+      "Role and permission matrix",
+    ],
+    role: "Project details are being prepared.",
+    results:
+      "The project preview presents demo sign-in and role management with selectable permissions. Usage and performance measurements are not yet documented.",
   },
   {
     slug: "doctor-schedule",

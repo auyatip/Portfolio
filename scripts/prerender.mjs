@@ -61,4 +61,4 @@ const temporaryBuild = resolve(process.cwd(), ".prerender");
 if (dirname(temporaryBuild) !== resolve(process.cwd()))
   throw new Error("Temporary build must stay inside the workspace");
 await rm(temporaryBuild, { recursive: true, force: true });
-console.log("Prerendered 10 English/Thai pages and the 404 page.");
+console.log(`Prerendered ${(projects.length + 1) * 2} English/Thai pages and the 404 page.`);

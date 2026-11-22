@@ -184,7 +184,7 @@ export default function Home() {
           <span className="section-note">{t("A selection of my work")}</span>
         </div>
         <div className="project-grid">
-          {projects.slice(0, all ? 4 : 3).map((project) => (
+          {(all ? projects : projects.slice(0, 3)).map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
         </div>
@@ -193,7 +193,9 @@ export default function Home() {
           onClick={() => setAll(!all)}
           aria-expanded={all}
         >
-          {t(all ? "Show featured projects" : "View all 4 projects")}
+          {all
+            ? t("Show featured projects")
+            : t("View all {count} projects").replace("{count}", String(projects.length))}
         </button>
       </section>
       <section id="Experience" className="section experience-grid">

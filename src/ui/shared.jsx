@@ -98,7 +98,7 @@ export function ProjectImage({ project, eager = false }) {
   return project.image ? (
     <img
       src={project.image}
-      alt={`${project.title} ? ${t("Project interface")}`}
+      alt={`${project.title} — ${t("Project interface")}`}
       loading={eager ? "eager" : "lazy"}
       width="1200"
       height="750"

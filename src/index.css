@@ -625,6 +625,9 @@ details[open] > summary {
   padding: 5px 10px;
   border-radius: 5px;
 }
+.case-gallery { margin: 32px 0; }
+.case-gallery img { display: block; width: 100%; height: auto; border-radius: 16px; }
+.case-gallery figcaption { margin-top: 12px; color: var(--muted); font-size: 0.875rem; }
 .experience-grid {
   display: grid;
   grid-template-columns: 0.65fr 1.35fr;

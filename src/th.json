@@ -166,5 +166,16 @@
   "Built full-stack MERN applications using React, Node.js, MongoDB, SQL, Git, and Agile practices.": "พัฒนาแอป Full-stack MERN ด้วย React, Node.js, MongoDB, SQL และ Git พร้อมฝึกทำงานแบบ Agile",
   "Repaired and modified aircraft structures under regulated safety, quality, and technical documentation procedures.": "ซ่อมและดัดแปลงโครงสร้างอากาศยานตามข้อกำหนดด้านความปลอดภัย คุณภาพ และเอกสารทางเทคนิค",
   "Developed strong troubleshooting, cross-functional teamwork, and operational responsibility in a safety-critical environment.": "พัฒนาทักษะแก้ปัญหา การทำงานร่วมกับหลายฝ่าย และความรับผิดชอบในสภาพแวดล้อมที่ความปลอดภัยมีความสำคัญสูง",
-  "Project interface": "หน้าจอโปรเจกต์"
+  "Project interface": "หน้าจอโปรเจกต์",
+  "View all {count} projects": "ดูผลงานทั้งหมด {count} โปรเจกต์",
+  "Education · Student management": "การศึกษา · ระบบจัดการนักเรียน",
+  "An education workspace for student information, user management, and role-based access permissions.": "พื้นที่ทำงานสำหรับการศึกษา รวมข้อมูลนักเรียน การจัดการผู้ใช้งาน และการกำหนดสิทธิ์ตามบทบาท",
+  "Bring student information and team access controls together in an organized education workspace.": "รวมข้อมูลนักเรียนและการกำหนดสิทธิ์ของทีมไว้ในพื้นที่ทำงานด้านการศึกษาที่เป็นระเบียบ",
+  "A student-management interface with demo sign-in for administrators and staff, user management, and a permission matrix organized by role and action.": "ระบบจัดการนักเรียนพร้อมหน้าเข้าสู่ระบบด้วยบัญชีสาธิตสำหรับผู้ดูแลระบบและเจ้าหน้าที่ การจัดการผู้ใช้งาน และตารางกำหนดสิทธิ์แยกตามบทบาทและการดำเนินการ",
+  "Administrator and staff sign-in": "การเข้าสู่ระบบสำหรับผู้ดูแลระบบและเจ้าหน้าที่",
+  "Student and user management workspace": "พื้นที่จัดการข้อมูลนักเรียนและผู้ใช้งาน",
+  "Role and permission matrix": "ตารางกำหนดบทบาทและสิทธิ์การเข้าถึง",
+  "Project details are being prepared.": "อยู่ระหว่างจัดเตรียมรายละเอียดการพัฒนาโปรเจกต์",
+  "The project preview presents demo sign-in and role management with selectable permissions. Usage and performance measurements are not yet documented.": "ตัวอย่างโปรเจกต์แสดงหน้าเข้าสู่ระบบด้วยบัญชีสาธิตและหน้าจัดการบทบาทที่เลือกสิทธิ์ได้ ยังไม่มีข้อมูลสถิติการใช้งานหรือผลวัดประสิทธิภาพ",
+  "Technology details coming soon.": "อยู่ระหว่างเพิ่มรายละเอียดเทคโนโลยีที่ใช้"
 }

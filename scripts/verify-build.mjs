@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 const routes = [
   "",
   "projects/athip-house/",
+  "projects/eduflow/",
   "projects/doctor-schedule/",
   "projects/web-ordering/",
   "projects/nestjs-postgresql/",

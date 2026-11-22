@@ -19,7 +19,7 @@ export default function CaseStudy({ project }) {
         <h1>{t(project.title)}</h1>
         <p>{t(project.description)}</p>
         <div className="button-row">
-          <a
+          {project.github && <a
             className="button secondary"
             href={project.github}
             target="_blank"
@@ -27,7 +27,7 @@ export default function CaseStudy({ project }) {
           >
             <FaGithub />
             {t("View source")}
-          </a>
+          </a>}
           {project.demo && (
             <a
               className="button primary"
@@ -44,6 +44,14 @@ export default function CaseStudy({ project }) {
       <div className="case-image">
         <ProjectImage project={project} eager />
       </div>
+      {project.gallery?.map((item) => (
+        <figure className="case-gallery" key={item.image}>
+          <a href={item.image} target="_blank" rel="noreferrer">
+            <img src={item.image} alt={t(item.caption)} loading="lazy" width="1873" height="900" />
+          </a>
+          <figcaption>{t(item.caption)}</figcaption>
+        </figure>
+      ))}
       <div className="case-content">
         <aside>
           <p className="eyebrow">{t("Inside the project")}</p>
@@ -84,6 +92,7 @@ export default function CaseStudy({ project }) {
           </section>
           <section id="Tech-Stack">
             <h2>{t("Tech Stack")}</h2>
+            {!project.stack.length && <p>{t("Technology details coming soon.")}</p>}
             <div className="tags">
               {project.stack.map((item) => (
                 <span key={item}>{t(item)}</span>

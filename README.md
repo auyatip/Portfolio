@@ -8,7 +8,7 @@ A responsive React / Vite portfolio with a navy and electric-blue design system,
 - `npm run dev`
 - `npm run lint`
 - `npm run typecheck` — strict TypeScript checking of the active JavaScript/JSX application through JSDoc.
-- `npm run build` — builds assets and prerenders the homepage, four case studies, and a 404 page.
+- `npm run build` — builds assets and prerenders the homepage, five case studies, and a 404 page.
 - `npm run verify:build` — verifies generated content, metadata, headings, anchor targets, and local assets.
 - `npm run preview` — previews the production output.
 
@@ -31,7 +31,7 @@ The original footer display email differs from the original working mailto links
 
 ## Hosting
 
-Serve `dist/` on a static host that supports directory index files, including `/projects/athip-house/`, `/projects/doctor-schedule/`, `/projects/web-ordering/`, and `/projects/nestjs-postgresql/`. Use `dist/404.html` for unknown routes. No new hosting account or deployment is required for this repository redesign. Add canonical URLs, an absolute social preview image, and a sitemap once the production domain is confirmed.
+Serve `dist/` on a static host that supports directory index files, including `/projects/eduflow/`, `/projects/athip-house/`, `/projects/doctor-schedule/`, `/projects/web-ordering/`, and `/projects/nestjs-postgresql/`. Use `dist/404.html` for unknown routes. No new hosting account or deployment is required for this repository redesign. Add canonical URLs, an absolute social preview image, and a sitemap once the production domain is confirmed.
 
 Browser-based visual and interaction QA could not run because the browser access host was unavailable. Before publishing, review at 360px, 768px, and 1440px; check mobile navigation, keyboard focus, both themes and persistence, reduced motion, direct case-study refreshes, CV download, and contact success/error states.
 
@@ -41,4 +41,6 @@ The header language switch preserves the current project and section. English ro
 
 `src/th.json` contains the Thai translations; original English copy remains the translation key. `src/language.js` and `src/LanguageProvider.jsx` supply language context and localized internal links. Thai uses self-hosted Noto Sans Thai alongside Geist. Project names, technology names, company names, metrics, and the existing CV file are preserved.
 
-The production build now prerenders 10 localized pages plus the 404 page, with localized document language and SEO descriptions and alternate-language links. `npm run verify:build` checks both language variants, project-preserving language switches, localized navigation, route assets, metadata, and anchors. Browser interaction and visual verification remain unavailable in this session.
+The production build now prerenders 12 localized pages plus the 404 page, with localized document language and SEO descriptions and alternate-language links. `npm run verify:build` checks both language variants, project-preserving language switches, localized navigation, route assets, metadata, and anchors. Browser interaction and visual verification remain unavailable in this session.
+
+EDUFLOW is included as a fifth project in English and Thai, using Next.js and MySQL. Its description is based on the supplied interface previews. The supplied login and permission screenshots and Railway demo link are included. Contribution details and source link remain pending.
